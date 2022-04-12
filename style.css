@@ -5,12 +5,14 @@
     font-family: "Montserrat", sans-serif;
 }
 
-/* colonna a sx */
+.container {
+    display: flex;
+}
+
 .col_sx {
     width: 200px;
     height: calc(100vh - 80px);
     background-color: black;
-    float: left;
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -62,6 +64,12 @@
 /* comando per tasti bianchi quando hover */
 a:hover {
     color: white;
+}
+
+.main {
+    width: calc(100vw - 200px);
+    height: calc(100vh - 80px);
+    background-color: blueviolet;
 }
 
 /* header */

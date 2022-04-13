@@ -104,27 +104,24 @@ a:hover {
 }
 
 /* main */
-.main {
+main {
     width: calc(100vw - 200px);
     height: calc(100vh - 80px);
-    background-color: blueviolet;
+    background-color: #141922;
+    position: relative;
 }
 
 /* header */
-header::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .header {
     background-color: rgba(0, 0, 0, 0.5);
     height: 80px;
     width: calc(100vw - 200px);
-    float: left;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .update {
@@ -139,6 +136,32 @@ header::after {
 
 .update:hover {
     font-size: 13px;
+}
+
+/* parte del corpo che scorre */
+.container_main {
+    width: calc(100vw - 200px);
+    height: calc(100vh - 80px);
+    overflow: scroll;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.container_main h2 {
+    color: white;
 }
 
 /* footer */

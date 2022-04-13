@@ -114,7 +114,7 @@ main {
 /* header */
 .header {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 80px;
+    height: 70px;
     width: calc(100vw - 200px);
     display: flex;
     justify-content: flex-end;
@@ -143,7 +143,8 @@ main {
     width: calc(100vw - 200px);
     height: calc(100vh - 80px);
     overflow: scroll;
-    padding-top: 90px;
+    padding-top: 80px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -151,6 +152,7 @@ main {
 nav {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 nav a {
@@ -162,7 +164,54 @@ nav a {
 
 .container_main h2 {
     color: white;
+    margin-bottom: 20px;
 }
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.product {
+    color: white;
+    text-align: center;
+    margin-right: 4%;
+}
+
+.product img {
+    width: 150px;
+}
+
+.product h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.product span {
+    font-size: 11px;
+    color: gray;
+}
+
+/* creato per john */
+#title-1-2 {
+    margin-bottom: 7px;
+}
+
+.description {
+    color: gray;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+/* artisti più popolari */
+#round {
+    border-radius: 50%;
+}
+
+/* comandi hover main */
+
 
 /* footer */
 .footer {

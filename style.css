@@ -71,8 +71,8 @@
 }
 
 .scroll_playlist {
-    overflow: scroll;
-    height: auto;
+    overflow: auto;
+    height: 70%;
 }
 
 /* comando per tasti bianchi quando hover */
@@ -328,6 +328,38 @@ nav a {
     background-color: gray;
 }
 
-.player {
-    
+/* media queries */
+@media screen and (max-width: 420px) {
+    .col_sx {
+        width: 50px;
+    }
+
+    .item span {
+        display: none;    
+    }
+
+    .scroll_playlist {
+        display: none;
+    }
+
+    .col_bot span {
+        display: none;
+    }
+
+    .col_bot hr {
+        display: none;
+    }
 }
+
+@media screen and (max-width: 900px) {
+    .product {
+        width: 25%;
+    }
+}
+
+/* @media screen and (max-height: 530px) {
+    .scroll_playlist {
+        overflow: auto;
+        height: 100%;
+    }
+} */

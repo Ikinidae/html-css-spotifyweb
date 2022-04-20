@@ -254,12 +254,14 @@
                         <span>Brano nome</span>
                     </a>
                 </div>
-                <a class="install" href="">
-                    <i class="far fa-heart"></i>
-                </a>
-                <a class="install" href="">
-                    <i class="far fa-folder"></i>
-                </a>            
+                <div class="button_margin">
+                    <a class="install" href="">
+                        <i class="far fa-heart"></i>
+                    </a>
+                    <a class="install" href="">
+                        <i class="far fa-folder"></i>
+                    </a> 
+                </div>                           
             </div>
 
             <!-- footer parte centrale -->
@@ -282,15 +284,12 @@
                     </a>
                 </div>
 
+                <!-- player -->
                 <div class="player row_flex">
                     <span> 0:25</span>
-                    <!-- la barra di riproduzione può essere fatta così, due div che si sovrappongono con z-index? -->
                     <div class="play_bar">
-                        <div class="gray_bar">
-
-                        </div>
-                        <div class="white_bar">
-
+                        <div class="song-slider">
+                            <input type="range" value="0" class="seek-bar">
                         </div>
                     </div>
                     <span> 4:35</span>

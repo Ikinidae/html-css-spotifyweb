@@ -270,14 +270,7 @@ nav a {
     justify-content: space-between;
     flex-direction: row;
     padding: 5px 10px;
-}
-
-.player {
-    margin-top: 10px;
-}
-
-.player span {
-    vertical-align: auto;
+    overflow: hidden;
 }
 
 .row_flex {
@@ -295,7 +288,7 @@ nav a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 5px;
     width: 50%;
 }
 
@@ -312,9 +305,8 @@ nav a {
     color: gray;
 }
 
-.fa-heart {
-    margin-left: 30px;
-    margin-right: 15px;
+.button_margin {
+    padding-left: 10px;
 }
 
 #white {
@@ -332,20 +324,35 @@ nav a {
 
 #tiny_white {
     color: white;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 13px;
 }
 
-.play_bar {
-    margin-left: 20px;
-    margin-right: 20px;
+.player {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.gray_bar {
-    height: 4px;
-    width: 50vw;
-    background-color: gray;
-    border-radius: 20px;
+.player span {
+    vertical-align: auto;
+}
+
+.play_bar {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.song-slider{
+    width: 45vw;
+    position: relative;
+}
+
+.seek-bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 /* media queries */
